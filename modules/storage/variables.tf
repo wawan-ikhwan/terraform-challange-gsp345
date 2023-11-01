@@ -15,3 +15,8 @@ variable "project_id" {
   type        = string
   default     = "" # Fill in your Project ID
 }
+
+variable "bucket_name" {
+  type        = string
+  description = "Masukkan bucket name (global unique) sesuai instruksi lab:"
+}
