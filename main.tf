@@ -21,7 +21,7 @@ module "vpc" {
   source       = "terraform-google-modules/network/google"
   version      = "~> 6.0"
   project_id   = var.project_id # Replace this with your project ID
-  network_name = var.network_name
+  network_name = "tf-vpc-132490"
   mtu          = 1460
 
   subnets = [

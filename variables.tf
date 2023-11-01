@@ -16,8 +16,8 @@ variable "project_id" {
   default     = "" # Fill in your Project ID
 }
 
-variable "network_name" {
-  description = "Masukkan nama network VPC sesuai instruksi lab:"
-  type        = string
-  default     = "" # Fill in your Project ID
-}
+# variable "network_name" {
+#   description = "Masukkan nama network VPC sesuai instruksi lab:"
+#   type        = string
+#   default     = "" # Fill in your Project ID
+# }
