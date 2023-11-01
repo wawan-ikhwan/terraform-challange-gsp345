@@ -7,13 +7,12 @@ variable "region" {
 variable "zone" {
   description = "The GCP zone where resources will be created."
   type        = string
-  default     = "" # Fill in your desired default zone
 }
 
 variable "project_id" {
   description = "The Google Cloud Project ID where resources will be created."
   type        = string
-  default     = "" # Fill in your Project ID
+  default     = "qwiklabs-gcp-01-0bef34d080c9"
 }
 
 # variable "network_name" {
